@@ -12,7 +12,11 @@
          <groupId>io.projectreactor</groupId>
          <artifactId>reactor-core</artifactId>
       </dependency>
+<<<<<<< HEAD
       <!-- test data -->
+=======
+      <!-- test data.txt -->
+>>>>>>> bb064ab (first)
       <dependency>
          <groupId>com.github.javafaker</groupId>
          <artifactId>javafaker</artifactId>
