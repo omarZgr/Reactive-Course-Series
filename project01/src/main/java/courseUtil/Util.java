@@ -33,13 +33,13 @@ public class Util {
         return FAKER;
     }
 
-    public static Subscriber<Objects> subscriber()
+    public static Subscriber<Object> subscriber()
     {
         return new DefaultSubscriber()  ;
     }
 
 
-    public static Subscriber<Objects> subscriber(String name)
+    public static Subscriber<Object> subscriber(String name)
     {
         return new DefaultSubscriber(name)  ;
     }
