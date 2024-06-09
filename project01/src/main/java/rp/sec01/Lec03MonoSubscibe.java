@@ -7,11 +7,7 @@ public class Lec03MonoSubscibe {
 
     public static void main(String[] args) {
 
-<<<<<<< HEAD
-        Mono<String> mono = Mono.just("Hello this is our data");
-=======
         Mono<String> mono = Mono.just("Hello this is our data.txt erger");
->>>>>>> bb064ab (first)
 
        /* mono.subscribe(
                 item -> System.out.println("Value :: " +item),
